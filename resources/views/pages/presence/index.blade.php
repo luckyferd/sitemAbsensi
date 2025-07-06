@@ -52,7 +52,7 @@ $.ajaxSetup({
                     
                     window.location.reload();
                 },
-                error: function(xhr, status, erorr) {
+                error: function(xhr, status, error) {
                     // Handle error response
                     console.log(error);
                 }
