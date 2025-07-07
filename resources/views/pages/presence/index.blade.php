@@ -43,7 +43,10 @@ $.ajaxSetup({
         e.preventDefault();
         //const form = $(this).closest('form');
         let url = $(this).attr('href');
-
+// Pastikan menggunakan HTTPS
+if (url.startsWith('http://')) {
+    url = url.replace('http://', 'https://');
+}
         if(confirm('Apakah Anda yakin ingin menghapus data ini?')) {
             $.ajax({
                 url: url,
