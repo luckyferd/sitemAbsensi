@@ -9,7 +9,9 @@
 
 ## Demo 
 
-https://sitemabsensi-production.up.railway.app/
+https://sitemabsensi-production.up.railway.app/ 
+- user     : test@example.com
+- password : password
 
 ## About Laravel
 
